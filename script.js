@@ -4,6 +4,7 @@ function indexOfIgnoreCase(s1, s2) {
 	const sunStr = s2.toLowerCase();
 	const char = sunStr.charAt(0);
 	for(let i=0;i<str.length;i++)
+		
 		{
 			
 			if(char===str.charAt(i))
