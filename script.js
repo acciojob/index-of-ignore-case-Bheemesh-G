@@ -1,14 +1,10 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
-   const str = s1.toLowerCase();
-	const sunStr = s2.toLowerCase();
-	// const char = s2.charAt(0);
-	char target = sunStr.charCodeAt(0);
-	for(let i=0;i<str.length;i++)
+	char target = s2.charCodeAt(0);
+	for(let i=0;i<s1.length;i++)
 		{
 			if(target===str.charCodeAt(i))
 			{
-				
 				return i;
 			}
 		}
