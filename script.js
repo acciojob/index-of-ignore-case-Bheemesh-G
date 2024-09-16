@@ -1,17 +1,16 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
-	const str = s1.toLowerCase();
+    const str = s1.toLowerCase();
 	const sunStr = s2.toLowerCase();
-	const char = s2.charAt(0);
+	const char = sunStr.charAt(0);
 	for(let i=0;i<str.length;i++)
 		{
 			
-			if(char==str.charAt(i))
+			if(char===str.charAt(i))
 			{
-				return i;
+			 console.log(i);
 			}
 		}
-	return -1;	
 }
 // Please do not change the code below
 const s1 = prompt("Enter s1:");
